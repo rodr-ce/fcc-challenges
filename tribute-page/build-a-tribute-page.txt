@@ -1,0 +1,171 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Don José de San Martín</title>
+</head>
+<body>
+  <header id="header">
+    <h1><i>El Libertador</i></h1>
+    <nav>
+      <ul>
+        <li><a href="#tribute-info">Información</a></li>
+        <li><a href="#tribute-sources">Fuentes</a></li>
+        <li><a href="#tribute-link">Link</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <h2 id="title">José Francisco de San Martín y Matorras</h1>
+    <div id="img-div">
+      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Retrato_de_Jos%C3%A9_de_San_Mart%C3%ADn_%28Hernandez%29.jpg/541px-Retrato_de_Jos%C3%A9_de_San_Mart%C3%ADn_%28Hernandez%29.jpg" />
+      <figcaption id="img-caption">Retrato de José de San Martín (1848)</figcaption>
+    </div>
+    <section id="tribute-info">
+      <h3>Biografía</h3>
+      <p>José Francisco de San Martín fue hijo del capitán don Juan de San Martín, nacido en Cervatos de la Cueza el 3 de febrero de 1728, y de doña Gregoria Matorras del Ser, que vio la luz en Paredes de Nava el 12 de marzo de 1738. Las dos poblaciones pertenecían al Reino de España y estaban en jurisdicción de Palencia, una de las provincias de Castilla la Vieja. El Libertador vino al mundo el 25 de febrero de 1778 en Yapeyú, que actualmente forma parte de la provincia argentina de Corrientes.</p>
+      <p>En 1781, la familia San Martín -el padre, la madre y cinco hijos, de los que cuatro eran varones- estaba radicada en Buenos Aires. Todos emprendieron viaje a España a fines de 1783, haciéndolo a bordo de la fragata Santa Balbina. Arribaron al puerto de Cádiz en la segunda quincena de marzo de 1784</p>
+      <p>José de San Martín, después de realizar estudios elementales en Málaga, donde se había establecido su familia, se incorporó en 1789 como cadete al Regimiento de Murcia, del arma de infantería.Mientras formó parte del ejército real con guarnición en España, combatió inicialmente en África contra los moros (árabes islámicos que habitaban en el norte de ese continente) y después lo hizo en Europa o en los mares vecinos, en guerras sostenidas con Francia, Inglaterra y Portugal.</p>
+      <p>Por este tiempo, en que pasó a ser oficial de caballería, San Martín se vinculó a otros jóvenes americanos, residentes en la Península, que forjaban planes de independencia política para las respectivas regiones de su nacimiento. En 1811, pidió y obtuvo su retiro del ejército real, dejó España por la vía de Portugal y se trasladó a Londres, donde esperaba concretar su propósito de pasar a América. San Martín y otros rioplatenses desembarcaron el 9 de marzo de 1812 en Buenos Aires, la ciudad capital del antiguo Virreinato del Río de la Plata. Contribuir a la independencia de los pueblos americanos era la alta misión que lo había impulsado a retornar a la tierra de su nacimiento.</p>
+      <p>A poco de su llegada, el gobierno triunviro le confió la organización de un escuadrón de caballería, que en pocos meses se constituiría en la base del Regimiento de Granaderos a Caballo, de inmortal memoria en las luchas por la emancipación americana.El 3 de febrero de 1813, San Martín, al frente de 120 granaderos, obtuvo su primera victoria en tierra americana al derrotar en San Lorenzo, cerca de la ciudad santafesina de Rosario, a 250 infantes desembarcados de una expedición fluvial corsaria promovida por el gobierno de Montevideo, ciudad aún dominada por partidarios del rey Borbón.</p>
+      <p>El Ejército del Norte había sido creado por el gobierno revolucionario en 1810 para afirmar su autoridad y consolidar el movimiento independentista hasta las fronteras con el Virreinato del Perú. Al mando del benemérito general Manuel Belgrano, vencedor en las batallas de Tucumán y Salta, penetró en 1813 en el Alto Perú (actual Bolivia), donde sufrió los reveses de Vilcapugio y Ayohuma. Mientras las fuerzas militares derrotadas retrocedían hasta Salta para reorganizarse, el gobierno de Buenos Aires decidió socorrerlas con el envío de refuerzos al mando del coronel San Martín. Este asumió el mando del Ejército del Norte el 29 de enero de 1814, tras disponerse el relevo del general Belgrano.</p>
+      <p>Mientras se hallaba en el Norte, San Martín llegó al convencimiento de que por ese solo camino no se lograría derrotar a las fuerzas del virrey del Perú que ocupaban el Alto Perú. En su concepto, era necesario abrir un segundo frente por el océano Pacífico y avanzar sobre Lima para que las tropas virreinales se retirasen a fin de acudir en defensa del territorio peruano amenazado. Mientras esto no sucediese, el Ejército del Norte y la defensa de la frontera con el Alto Perú quedarían a cargo de Martín Miguel de Güemes y sus milicias gauchas.</p>
+      <p>El 10 de agosto de 1814, el director supremo Gervasio Antonio de Posadas designó a San Martín -dijo hacerlo "a su instancia y solicitud"- "gobernador intendente de la Provincia de Cuyo, con el doble objeto de continuar los distinguidos servicios que tiene hechos a la Patria y el de lograr la reparación de su quebrantada salud en aquel delicioso temperamento". San Martín repartió su tiempo en ejercer el gobierno civil de Cuyo y en organizar el Ejército de los Andes, cuyo campo de instrucción estaba en el Plumerillo, cercano a la ciudad de Mendoza.</p>
+      <p>Concluida la preparación del Ejército de los Andes, entre cuyos jefes se contaba el gran patriota chileno Bernardo O'Higgins, a mediados de enero de 1817 se inició el cruce de la cordillera, que parecía insalvable para una masa militar en campaña. Traspuestas las montañas, las tropas libertadoras vencieron en Chacabuco a un ejército realista el 12 de febrero, victoria que les dejó libre el camino de Santiago, la capital de la antigua Capitanía General o Reino de Chile. Las tropas realistas que aún permanecían en el sur de Chile fueron reforzadas desde el Perú e iniciaron un avance sobre Santiago. En la noche del 19 de marzo de 1818 lograron sorprender en Cancha Rayada al ejército unido de argentinos y chilenos, que se dispersó parcialmente. San Martín rehízo sus efectivos y el 5 de abril siguiente obtuvo un gran triunfo en la batalla de Maipú. La victoria de Maipú tuvo enorme importancia, no sólo militar sino también política, por su gran repercusión en todo el  continente, llevando esperanzas a los pueblos aún dominados y causando a la vez halagüeños augurios por sus derivaciones en la política europea.</p>
+      <p>Asegurada la independencia de Chile, San Martín organizó el Ejército Libertador del Perú, integrado por argentinos y chilenos. La expedición, que partió el 20 de agosto de 1820, desembarcó el 7 del mes siguiente en la bahía de Paracas, donde se anunció al pueblo peruano que había llegado la hora de su liberación. San Martín ejerció funciones de gobierno con el título de Protector de la Libertad del Perú. Después de entrevistarse en la ciudad ecuatoriana de Guayaquil, en julio de 1822, con el Libertador del Norte, el general Simón Bolívar, San Martín prefirió abandonar el campo de su gloria con un renunciamiento ejemplar antes que claudicar en sus principios de libertador de pueblos. De regreso en Lima, convocó al Congreso Nacional y ante él renunció a sus poderes en septiembre de 1822.</p>
+      <p>En la madrugada del siguiente día -21 de septiembre de 1822- embarcó el Libertador San Martín, aureolado por la grandeza de su alma, con destino al puerto chileno de Valparaíso. Después de permanecer en las cercanías de Santiago para reponerse de una grave enfermedad, se dirigió a Mendoza, ciudad a la que arribó en los primeros días de febrero de 1823. Allí recibió la noticia de la muerte de su esposa, cuyo deceso se produjo en Buenos Aires el 3 de agosto.</p>
+      <p>El 4 de diciembre de 1823, San Martín llegó a Buenos Aires y por pocos días se hospedó en una quinta de la familia Escalada sita en el antiguo partido de San José de Flores. Empero, pronto comenzó a manifestarse un ambiente de hostilidad en torno de su persona, a la vez que se le atribuían absurdos proyectos y actitudes. Resolvió trasladarse a Europa para dar a su hija una educación escolar esmerada. También esperaba que este alejamiento le permitiera evadirse del molesto ambiente que le habían creado en Buenos Aires algunos ingratos. Padre e hija partieron de Buenos Aires el 10 de febrero de 1824.</p>
+      <p>Mientras su hija Mercedes continuaba sus estudios en un instituto educativo en Bruselas, decidió retornar a Buenos Aires para atender sus asuntos personales, en particular los de carácter económico. Alentado por la convicción de que hallaría a sus compatriotas en paz, se embarcó a fines de 1828, pero al pasar por Río de Janeiro tuvo noticias del movimiento revolucionario iniciado en Buenos Aires el 1 de diciembre de 1828 por el general Juan Lavalle, su antiguo subordinado, y del posterior fusilamiento del gobernador legítimo, coronel Manuel Dorrego. Ambos hechos, alentados por el Partido Unitario, determinaron que el Libertador decidiera no desembarcar en la capital porteña. Consecuente con su principio de no desenvainar su sable para luchar en contiendas facciosas, el 17 de abril se marchó de Montevideo para regresar a Bruselas pasando, previamente, por Inglaterra y Francia. San Martín y su hija dejaron Bruselas y a fines de 1830 se instalaron en París. A poco de trasladarse a Francia, San Martín anudó una honda amistad con Alejandro Aguado, su antiguo camarada de armas en España, convertido por entonces en un gran banquero. Cerca de la residencia de éste, en un lugar conocido con el nombre de Grand Bourg, el héroe adquirió en 1834 una confortable vivienda, que habitó hasta 1848 con su hija, su yerno y sus nietas.</p>
+      <p>En 1848, debido a la agitación reinante en gran parte de Francia, San Martín dejó Grand Bourg y, acompañado por su familia, se trasladó a Boulogne-sur-Mer. Desde allí resultaría más fácil y rápido pasar a Gran Bretaña. En Boulogne-sur-Mer, a las 3 de la tarde del 17 de agosto de 1850, falleció don José de San Martín, brigadier general de la Confederación Argentina, capitán general de la República de Chile y generalísimo de la del Perú y  fundador  de su libertad.</p>
+      <div id="quote">
+        <p><i>Vio en sí cómo la grandeza de los caudillos no está, aunque lo parezca, en su propia persona, sino en la medida en que sirven a la de su pueblo; y se levantan mientras van con él, y caen cuando la quieren llevar detrás de sí. Lloraba cuando veía a un amigo; legó su corazón a Buenos Aires y murió frente al mar, sereno y canoso, clavado en su sillón de brazos, con no menos majestad que el nevado de Aconcagua en el silencio de los Andes.</i></p>
+        <p class="right">"San Martín" de Jose Martí. Nueva York, 1891.</p>
+      </div>
+      <div id="tribute-sources">
+        <p>Fuentes:</p>
+        <p><a href="https://sanmartiniano.cultura.gob.ar/noticia/jose-de-san-martin-libertador-de-america/">José de San Martín: Libertador de América | Instituto Nacional Sanmartiniano</a></p>
+        <p><a href="https://www.elhistoriador.com.ar/jose-de-san-martin-por-felipe-pigna/">José de San Martín, por Felipe Pigna - El Historiador</a></p>
+        <p><a href=">https://es.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn">José de San Martín - Wikipedia, la enciclopedia libre</a></p>
+      </div>
+      <div class="divisor"></div>
+      <h3> Si queres saber más de su vida y obra visitá la web del 
+        <a id="tribute-link" value="Instituto Nacional Sanmartiniano" target="_blank" href="https://sanmartiniano.cultura.gob.ar/">Instituto Nacional Sanmartiniano</a>.
+      </h3>
+    </section>
+  </main>  
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  color: #2e4053;
+  background-color: #f4efe6;
+  font-family: Helvetica;
+  text-align: center;
+  margin: 0;
+  height: 100%;
+}
+
+header {
+  background-color: #9EB065;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  font-size: 15px;
+}
+
+h1 {
+  font-weight: 700;
+  text-align: right;
+  width: 60%
+}
+
+nav {
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: block;
+  margin: 0 1em;
+}
+
+li a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0.2rem;
+	padding: 0.2rem;
+}
+
+li a:hover {
+  color: #f4efe6;
+  background-color: #2e4053;
+}
+
+main {
+  padding-top: 80px;
+  height: 100%;
+}
+
+#img-caption {
+  padding-top: 15px;
+  font-size: 0.8em;
+}
+
+section {
+  margin: auto;
+  width: 80%;
+}
+
+#tribute-sources {
+  text-align: left;
+}
+
+.divisor {
+  border-bottom: 2px solid #2e4053;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+#img-div {
+  margin: auto;
+  width: 50%;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#quote {
+  border: 1px solid #2e4053;
+  margin: auto;
+  width: 60%;
+  text-align: justify;
+  padding: 0 30px;
+}
+
+.right {
+  text-align: right;
+}
+
+** end of undefined **
+

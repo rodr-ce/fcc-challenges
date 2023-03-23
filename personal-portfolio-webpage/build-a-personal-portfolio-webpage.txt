@@ -1,0 +1,243 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/47b73e3d94.js" crossorigin="anonymous"></script>
+    <title>Mi Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#welcome-section">Welcome</a></li>
+                <li><a href="#projects">My projects</a></li>
+                <li><a href="#contact">Contact me!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome-section">
+            <h1>Hi, I'm Rodrigo</h1>
+            <p>I'm working to be a web developer</p>
+        </section>
+        <section id="projects">
+            <h2>My projects:</h2>
+            <div>
+                <a href="https://rodrigocee.github.io/survey-fcc-rodrigo/">
+                    <h3 class="project-tile">A survey form</h3>
+                    <img src=".\images\survey-form.png" alt="image of the survey form" class="project-image">
+                </a>
+
+            </div>
+            <div>
+                <a href="https://rodrigocee.github.io/documentation-page-fcc-html/">
+                    <h3 class="project-tile">A technical documentation page of HTML</h3>
+                    <img src=".\images\html-documentation.png" alt="image of the technical documentation page for html"
+                        class="project-image">
+                </a>
+            </div>
+            <p>Soon I will make updates with new projects too :)</p>
+        </section>
+        <section id="contact">
+            <h2>Get in touch with me:</h2>
+            <p>Send me a email</p>
+            <div>
+                <a href="mailto:rodrigo.62504@slmail.me" class="social-links"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p>Or take a look at my profiles:</p>
+            <div class="social-media">
+                <div><a target="_blank" id="profile-link" class="social-links" href="https://www.freecodecamp.org/rodrigoc"><i
+                            class="fa-brands fa-free-code-camp"></i></a></div>
+                <div><a target="_blank" class="social-links" href="https://github.com/rodrigocee/"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+                <div><a target="_blank" class="social-links" href="https://www.linkedin.com/in/rodrigo-c-83b917244/"><i
+                            class="fa-brands fa-linkedin"></i></a></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-sign"><i class="fa-solid fa-person-digging"></i></div>
+        <p>This is page is currently in developement.</p>
+    </footer>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+/* Estilos generales de la página */
+
+* {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+   margin: 0;
+}
+
+
+body {
+    font-family: 'Heebo', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+main section:first-of-type {
+    padding-top: 70px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    border: 0;
+}
+
+/* Estilos para de los elementos */
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #E63946;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0 50px;
+  }
+
+nav ul li a {
+    color: #ececec;
+    font-weight: 900;
+}
+
+#welcome-section {
+    background-color: #1D3557;
+    height: 100vh;
+    color: #F1FAEE;
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+    vertical-align: middle;
+}
+
+#welcome-section p {
+    font-size: 30px;
+}
+
+#projects {
+    background-color: #31587A;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+#projects h3 {
+    margin-bottom: 0;
+    color: #F1FAEE;
+}
+
+/* Las imagenes son solo para verse en Github y Vercel, no estan en otro servidor*/
+
+.project-image {
+    width: 35%;
+    height: auto;
+    padding-top: 0;
+}
+
+#contact {
+    background-color: #457B9D;
+    text-align: center;
+}
+
+#contact h2 {
+    font-style: italic;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-links {
+    color: #F1FAEE;
+    font-size: 30px;
+    padding: 10px;
+}
+
+footer {
+    padding: 0;
+    background-color: #CDEAE5;
+    border-top: 3px solid #1D3557 ;
+    padding-top: 15px;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+}
+
+footer i {
+    width: 15px;
+}
+
+#footer-sign {
+    font-size: 30px;
+}
+
+/* MEDIA QUERRYS para diferentes tamaños de pantalla */
+
+@media only screen and (max-width: 661px) {
+
+  nav ul li {
+    margin: 0 30px;
+  }
+
+}
+
+
+@media only screen and (max-width: 541px) {
+
+  body {
+    font-size: 0.8rem
+  }
+
+  nav ul li {
+    margin: 0 5px;
+    
+  }
+
+}
+
+** end of undefined **
+

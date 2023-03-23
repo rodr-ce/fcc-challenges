@@ -1,0 +1,139 @@
+body {
+    background-color: #F5F5F5;
+    color: #283747;
+    font-family: sans-serif;
+  }
+  
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 180px;
+    height: 100%;
+    border-right: 1px solid black;
+    font-size: 20px;
+  }
+  
+  #navbar header {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 200px;
+    width: auto;
+    max-width: 1000px;
+  }
+  
+  #navbar ul li {
+    margin-left: 0;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: solid;
+    padding-top: 30px;
+  }
+  
+  .nav-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    width: 100%;
+    padding-left: 0;
+  }
+  
+  code {
+    background-color: #c7d0d8 ;
+    font-size: 1.3em;
+    padding: 2px;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  header {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 1200px) and (min-width: 750px) {
+    #main-doc {
+      width:500px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+  
+    #navbar {
+      border-right: 0;
+        display: flex;
+      justify-content: start;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      z-index: 3;
+    }
+  
+    #main-doc {
+      top: 70px;
+      margin-left: 0;
+      width: auto;
+    }
+  
+    .menu-item {
+      display: block;
+      left: 0;
+    }
+  
+    #nav-title {
+      width: auto;
+      text-align: right;
+    }
+  
+    #menu-button {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 30px;
+      height: 25px;
+      padding: 10px;
+      border-radius: 10px;
+      background: #283747;
+      cursor: pointer;
+    }
+  
+    #menu-button span {
+      width: 30px;
+      height: 4px;
+      background: white;
+    }
+  
+    .menu-item {
+      position: absolute;
+    }
+  
+    .toggle {
+      display: none;
+      text-align: left;
+      background: #F5F5F5;
+      padding: 20px;
+      width: 100%;
+      height: 100%;
+      font-size: 20px;
+    }
+  
+    .toggle li {
+      list-style: none;
+      display: block;
+      padding: 10px 0;
+      color: #283747;
+    }
+  
+    #menu-toggle:checked + .toggle {
+      display: block;
+    }
+  }
